@@ -1,0 +1,5 @@
+print("Mean Old Insult Machine")
+name =input("Who are you?")
+hair = input("How much hair do you have on your head")
+rating = input("On a scale of 1-10 how bald are you?")
+print("Hey",name,"- yeah thought I wouldn't know who you were becasue you didn't capitalise properly!Well get that egg-head and dry your eyes because some amazing insults are a-coming....")
