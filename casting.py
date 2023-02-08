@@ -17,5 +17,13 @@ elif birthyear in range(1997,2012):
 elif birthyear in range(2013,2023):
   print("You're in Generation Alpha")
 else:
-  print("Try again")
+  print("Looks like you're from the future! Do you have a time machine?") 
               
+
+    
+    
+    
+    
+    
+    
+    
