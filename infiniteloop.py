@@ -32,6 +32,7 @@ while exit == "no":
     if animal1 == "Lesser Spotted Lemur":
       print("Umm... the Lesser spotted Lemur goes Awooga?")
     else:
-      print("Try again")
+      print("PleseTry again")
+      
     
     exit = input("Do you want to exit?
