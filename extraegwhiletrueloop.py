@@ -15,7 +15,11 @@ counter =0
 while True:   
   second_question = int(input("The number of planets in our solar system is _____."))
   counter +=1
-  if second_question =="Eight" or second_question =="8":
+  if second_question =="Eight":
+    second_question =="Eight"
+    break
+  elif second_question =="8":
+    second_question = int(second_question)
     break
 print("Great, you got the answer in",counter,"attempt")
 
@@ -42,3 +46,29 @@ while True:
   if fifth_question == "Yen":
     break
 print("Great, you got the answer in",counter,"attempt")
+
+counter = 0
+while True:
+  sixth_question = input("The author of the book To Kill a Mockingbird -----")
+  counter += 1
+  if sixth_question == "Harper Lee":
+    break
+print("Great, you got the answer in",counter,"attempt")
+
+counter = 0
+while True:
+  seventh_question = input("The mathematical symbol for equal to is _____.")
+  counter +=1
+  if seventh_question == "=":
+    break
+print("Great, you got the answer in",counter,"attempt")
+
+counter = 0
+while True:
+  eighth_question =input("The color of a ripe banana is _____.")
+  counter +=1
+  if eighth_question == "Yellow":
+    break
+print("Great, you got the answer in",counter,"attempt")
+  
+print("Congragulations! You did an amazing job!")
