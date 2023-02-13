@@ -13,7 +13,7 @@ print("Great, you got the answer in",counter,"attempt")
 
 counter =0
 while True:   
-  second_question = int(input("The number of planets in our solar system is _____."))
+  second_question = input("The number of planets in our solar system is _____."))
   counter +=1
   if second_question =="Eight":
     second_question =="Eight"
