@@ -1,5 +1,5 @@
 while True:
-  print("You are in a coridoor, do you go left or right?")
+  print("You are in a coridoor, do you go left or right ?")
   direction = input(">")
   if direction =="left" or direction =="Left":
     print("You have fallen to your death")
