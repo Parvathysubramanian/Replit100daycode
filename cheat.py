@@ -5,10 +5,10 @@ print("Select your move (R, P or S)")
 Player1 =0
 Player2 =0
 
-Player1_round = input("Player 1 >")
-Player2_round = input("Player 2 >")
-
 while True: 
+  Player1_round = input("Player 1 >")
+  Player2_round = input("Player 2 >")
+  
   if Player1_round =="R" and Player2_round == "P":
     print("Player 1 won")
     Player1 +=1
@@ -39,4 +39,4 @@ while True:
   else:
     print("Player 1 has", Player1, "wins")
     print("Player 2 has", Player2, "wins")
-  continue
+    continue
