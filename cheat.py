@@ -1,27 +1,42 @@
 print("E P I C   🪨  🗞️  ✂️    B A T T L E")
 print("Round 1")
 print("Select your move (R, P or S)")
-while True:
-  counter = 0
-  Player1 = input("Player 1 >")
-  Player2 = input("Player 2 >")
-  if Player1 =="R" and Player2 == "P":
-    print("Player 1's Rock is smothered by Player 2's Paper")
-  elif Player1 =="R" and Player2 =="S":
-   print("Player 1's Rock is smothered by Player 2's Scissors")
-  elif Player1 =="R" and Player2 =="R":
+
+Player1 =0
+Player2 =0
+
+Player1_round = input("Player 1 >")
+Player2_round = input("Player 2 >")
+
+while True: 
+  if Player1_round =="R" and Player2_round == "P":
+    print("Player 1 won")
+    Player1 +=1
+  elif Player1_round =="R" and Player2_round =="S":
+    print("Player 1 won")
+    Player1 +=1
+  elif Player1_round =="S" and Player2_round == "P":
+    print("Player 1 won")
+    Player1 +=1
+  elif Player1_round =="R" and Player2_round =="R":
    print("It's a tie")
-  elif Player1 =="P" and Player2 =="P":
+  elif Player1_round =="P" and Player2_round =="P":
     print("Its a Tie")
-  elif Player1 =="P" and Player2 =="R":
-    print("Player 2's Rock is smothered by Player 1's Paper")
-  elif Player1 =="P" and Player2 =="S":
-    print("Player 1's Paper is smothered by Player 2's Scissors")
-  elif Player1 == "S" and Player2 =="R":
-    print("Player 2's Rock is smothered by Player 1's Scissor")
-  elif Player 1 =="S" and Player2 == "P":
-  print("Player 1's Scissor is smothered by Player 2's Paper")
-  break
-print("Try again")
-counter +=1
-print(counter)
+  if Player1_round =="P" and Player2_round =="S":
+    print("Player 2 won")
+    Player2 +=1
+  elif Player1_round =="P" and Player2_round =="R":
+    print("Player 2 won")
+    Player2 +=1
+  elif Player1_round == "S" and Player2_round =="R":
+    print("Player 2 won")
+    Player2 +=1
+
+  if Player1 == 3 or Player2 == 3:
+    print("Thanks for playing")
+    exit()
+    
+  else:
+    print("Player 1 has", Player1, "wins")
+    print("Player 2 has", Player2, "wins")
+  continue
